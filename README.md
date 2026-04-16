@@ -1,29 +1,31 @@
-# Project
-# 📦 Cross-Border E-Commerce Inventory System
+# 📦 Cross-Border E-Commerce Inventory Management System
 
-## 📖 Project Description
-This is a modular, command-line-based inventory management system developed for the **COMP S209W / 8090SEF** course project. It is designed to solve real-world e-commerce challenges by managing diverse Stock-Keeping Units (SKUs) and preventing unauthorized stock manipulation.
+**COMP S209W / COMP 8090SEF Course Project**
 
-## ✨ Core Features
-- **Strict OOP Architecture (Task 1):** Fully implements the four pillars of Object-Oriented Programming (Abstraction, Encapsulation, Inheritance, and Polymorphism) to ensure secure and scalable code.
-- **Trie Data Structure (Task 2):** Features a custom-built Trie (Prefix Tree) algorithm, achieving blazing-fast $O(M)$ time complexity for SKU auto-complete searches.
-- **Heap Sort Algorithm (Task 2):** Utilizes a custom Max-Heap implementation to generate an $O(N \log N)$ low-stock alert report securely and efficiently.
+This repository contains the implementation of a Cross-Border E-Commerce Inventory Management System, developed in Python. The project demonstrates the practical application of Object-Oriented Programming (OOP) principles and advanced data structures/algorithms.
 
-## 🚀 User Guide: How to run the code
+## 🎥 Project Presentation Videos
 
-### Prerequisites
-- **Python 3.x** must be installed on your system.
-- No external libraries are required (only standard built-in libraries like `abc` are used).
+* **Task 1 (OOP Architecture):** [Watch Task 1 Video Here](https://youtu.be/DgA7Kb2jUAo)
+* **Task 2 (Data Structure & Algorithm):** [Watch Task 2 Video Here](https://youtu.be/Bp81om8-SfA)
 
-### Installation & Execution
-1. Clone this repository or download all `.py` files into a single local directory. Ensure the following files are in the same folder:
-   - `models.py`
-   - `algorithms.py`
-   - `manager.py`
-   - `main.py`
-   - `README.md`
-2. Open your terminal (Mac/Linux) or command prompt (Windows).
-3. Navigate to the directory where the files are saved.
-4. Run the main application using the following command:
+---
+
+## 🛠️ Project Structure
+
+The system is designed with a strict modular architecture:
+
+* `models.py`: Contains the data models (`Product` base class, `ElectronicProduct`, `OutdoorProduct`) implementing Abstraction, Inheritance, and Encapsulation.
+* `algorithms.py`: Contains the custom `Trie` (Prefix Tree) for $O(M)$ SKU searching and `Heap Sort` for $O(N \log N)$ inventory sorting.
+* `manager.py`: Handles the core business logic and inventory management.
+* `main.py`: The entry point providing the interactive terminal user interface.
+
+## 🚀 How to Run
+
+1. Ensure you have Python 3.x installed on your system.
+2. Clone this repository to your local machine.
+3. Open your terminal or command prompt.
+4. Navigate to the project directory.
+5. Run the following command:
    ```bash
    python main.py
